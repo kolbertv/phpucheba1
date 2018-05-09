@@ -1,0 +1,71 @@
+/*
+* подключение чужих файлов стилей
+*  @import "../../bower_components/normalize.css/*.css";
+*/
+
+$border_radius: 3px;
+$color_pink: #ff749f;
+$color_blue: #84d8ea;
+$color_gray: #eee;
+$border_test: none;
+//$border_test: 1px solid black;
+$width_1200: 1090px;
+
+
+*:not(i) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+
+html, body, p, a {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.textWhite {
+  color: white;
+}
+
+.textBlack {
+  color: black;
+}
+
+.textPink {
+  color: $color_pink;
+}
+
+.main {
+  margin: 0 auto;
+  width: $width_1200;
+}
+
+@import "parts/button.scss";
+@import "parts/header.scss";
+@import "parts/dropdowncart.scss";
+@import "parts/catalog.scss";
+@import "parts/nav.scss";
+@import "parts/bigcartcontent.scss";
+
+
+
+
+
+@import "parts/footer.scss";
+
+
+
+/*
+* Подключение своих файлов стилей
+* @import "parts/*.css";
+*/
+
+
+
+
