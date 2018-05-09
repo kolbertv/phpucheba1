@@ -58,7 +58,7 @@ let serverConfig = {
     //
     // // tunnel: true,
     // // host: 'localhost',
-    proxy: 'optimized',
+    proxy: 'php',
     port: 8080,
     open: true
 };
