@@ -1,3 +1,7 @@
+
+
+
+
 <header>
     <div class="headerContainer">
         <div class="headerTop">
@@ -9,7 +13,7 @@
             <p class="headerTop__item"><a class="headerTop__link" href="">регистрация</a></p>
         </div>
         <div class="headerMiddle">
-            <a class="headerMiddle__logoLink" href="../index.php">детский магазин</a>
+            <a class="headerMiddle__logoLink" href="../index.php"><?php echo($shopName)?></a>
             <input class="headerMiddle__searchInput" type="text" placeholder="Поиск по всему магазину...">
             <a class="headerMiddle__myAccountLink" href=""></a>
             <a class="headerMiddle__wishList" href=""></a>

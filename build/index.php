@@ -1,8 +1,12 @@
+<?php
+$shopName = 'детский магазин';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Детский магазин</title>
+    <title><?php echo($shopName)?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -16,6 +20,10 @@
 
 <body>
 
+
+
+
+
 <header>
     <div class="headerContainer">
         <div class="headerTop">
@@ -27,7 +35,7 @@
             <p class="headerTop__item"><a class="headerTop__link" href="">регистрация</a></p>
         </div>
         <div class="headerMiddle">
-            <a class="headerMiddle__logoLink" href="../index.php">детский магазин</a>
+            <a class="headerMiddle__logoLink" href="../index.php"><?php echo($shopName)?></a>
             <input class="headerMiddle__searchInput" type="text" placeholder="Поиск по всему магазину...">
             <a class="headerMiddle__myAccountLink" href=""></a>
             <a class="headerMiddle__wishList" href=""></a>
