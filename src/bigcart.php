@@ -1,3 +1,5 @@
+//= template/variables.php
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>

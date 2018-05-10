@@ -1,7 +1,3 @@
-
-
-
-
 <header>
     <div class="headerContainer">
         <div class="headerTop">

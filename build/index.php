@@ -20,10 +20,6 @@ $shopName = 'детский магазин';
 
 <body>
 
-
-
-
-
 <header>
     <div class="headerContainer">
         <div class="headerTop">

@@ -1,6 +1,4 @@
-<?php
-$shopName = 'детский магазин';
-?>
+//= template/variables.php
 
 <!DOCTYPE html>
 <html lang="ru">

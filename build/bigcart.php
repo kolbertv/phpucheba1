@@ -1,3 +1,7 @@
+<?php
+$shopName = 'детский магазин';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -15,10 +19,6 @@
 </head>
 
 <body>
-
-
-
-
 
 <header>
     <div class="headerContainer">
